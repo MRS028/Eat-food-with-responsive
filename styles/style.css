@@ -1,0 +1,39 @@
+.skip{
+    color: chocolate;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+.hero-content{
+    text-align: left;
+    padding-top: 260px;
+
+}
+h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-image{
+    width: 650px;
+    height: 770px;
+    /* background-image: url(../images/shapes/Group\ 8450.png); */
+}
+
+
+/* Responsive */
+@media screen and (max-width:576px) {
+    .container{
+        flex-direction: column;
+    }
+    h1{
+        /* font-size: 50px; */
+        padding-top: none;
+    }
+    
+}
